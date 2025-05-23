@@ -8,6 +8,12 @@ trigger:
 resources:
 - repo: self
 
+appendCommitMessageToRunName:pool:
+  name: SANDEEP-AI-ENGI
+  demands:
+    - npm
+    - node.js
+
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '08e40fbc-eb65-4d7e-96de-4ea4fd3a35f6'
