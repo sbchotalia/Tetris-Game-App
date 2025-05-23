@@ -8,11 +8,6 @@ trigger:
 resources:
 - repo: self
 
-appendCommitMessageToRunName:pool:
-  name: SANDEEP-AI-ENGI
-  demands:
-    - npm
-    - node.js
 
 variables:
   # Container registry service connection established during pipeline creation
