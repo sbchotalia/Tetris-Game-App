@@ -241,7 +241,7 @@ function drawMainMenu(){
     context.fillStyle='Blue'
     context.font = '32px Russo One';
     context.textAlign = "center";
-    context.fillText("Lets Play..", canvas.width /2, canvas.height /2)
+    context.fillText("Lets Rock and Play..!!..", canvas.width /2, canvas.height /2)
 
     if(window.localStorage.getItem('highscore') !== null){
         context.font = '18px Russo One';
